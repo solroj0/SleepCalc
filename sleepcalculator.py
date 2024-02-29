@@ -60,7 +60,7 @@ schedule = create_schedule(operation, time_difference, time_interval)
 print(f"{'   Day':<12}{'Time':<12}")
 for item in schedule:
     print(f"| {item[0]:<8} {item[1]} |")    
-print("-" *60)
+print("-" *60 + Style.RESET_ALL)
 
 
  
